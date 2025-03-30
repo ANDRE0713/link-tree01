@@ -6,11 +6,11 @@
 }
 
 :root {
-  --black: #000000;
-  --dark-gray: #585858;
-  --white: #ffffff;
-  --neon-green: #C4F82A;
-  --grey: #333;
+  --black: #200b0b;
+  --dark-gray: #000000;
+  --white: #fff;
+  --neon-green: #7df971;
+  --grey: #696969;
 
 }
 
@@ -40,4 +40,39 @@ img{
     width: 88px;
     border-radius: 50%;
     margin-bottom: 24px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 4px;
+}
+
+strong{
+    font-size: 14px;
+    color: var(--neon-green);
+    line-height: 150%;
+}
+
+p{
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 150%;
+}
+ 
+a{
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--grey);
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+a:houver{
+    background-color: var(--neon-green);
+    color: var(green);
+    transition: 0.6s;
 }
